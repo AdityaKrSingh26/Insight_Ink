@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=UnifrakturMaguntia&family=Varela+Round&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #F1F2F3;
+}
+
+.loading {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav {
+  padding: 20px 0px;
+  background: #F7F4F4;
+}
+
+nav .wrap {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+}
+
+nav .heading {
+  color: #0E1E32;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  font-family: 'UnifrakturMaguntia', cursive;
+  font-size: x-large;
+}
+
+nav img {
+  height: 70px
+}
+
+nav .search-div {
+  gap: 10px;
+}
+
+nav #search {
+  border: 2px solid #0E1E32;
+  border-radius: 12px;
+  height: 30px;
+  width: 200px;
+  text-align: center;
+  font-size: small;
+}
+
+nav #submit {
+  /* font-size: large; */
+  font-family: 'Varela Round', sans-serif;
+  background: #0E1E32;
+  color: #F1F2F3;
+  border: none;
+  border: 2px solid #0E1E32;
+  border-radius: 12px;
+  height: 34px;
+  width: 80px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.keyword-div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.keyword {
+  width: 80vw;
+  margin: 20px 0px 10px;
+  font-family: 'Varela Round', sans-serif;
+  font-weight: 1000;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.keyword p {
+  cursor: pointer;
+  padding: 5px 0px;
+  transition: transform 0.2s ease-in-out;
+}
+
+.keyword p:hover {
+  transform: scale(1.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+/* headline css */
+
+
+.loading-headline {
+  height: 400px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.headline {
+  font-family: 'Varela Round', sans-serif;
+  margin: 10px 0px 40px;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.headline button {
+  border: none;
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  font-size: xx-large;
+  text-align: center;
+  /* overflow: hidden; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  transition: transform 0.2s ease-in-out
+}
+
+.headline button:hover {
+  transform: scale(1.3);
+  cursor: pointer;
+}
+
+headline button img {
+  height: 50px;
+
+}
+
+.box {
+  height: 350px;
+  width: 85vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.image {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image img {
+  border-radius: 10px;
+  height: 350px;
+}
+
+
+.text-container-heading {
+  padding: 0px 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.text-container-heading h2,
+p {
+  padding: 10px 0px;
+}
+
+.text-container-heading a {
+  text-decoration: none;
+  align-items: baseline;
+  padding: 20px 0px;
+}
+
+
+
+
+
+
+/* Card.css */
+.card-container {
+  padding: 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.card {
+  margin: 10px 0px;
+  min-height: 100px;
+  width: 80vw;
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.image-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-width: 200px;
+  max-width: 200px;
+  height: 100px;
+  /* background-color: #cccccc; */
+  overflow: hidden;
+  border-radius: 8px;
+}
+
+.card img {
+  /* height: 100px; */
+  width: 200px;
+  align-items: center;
+}
+
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.text-container p {
+  font-size: small;
+}
+
+.card .text-container a {
+  text-decoration: none;
+}
+
+.read-more-articles {
+  height: 100px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.read-more-articles button {
+  border: 2px solid #0E1E32;
+  border-radius: 12px;
+  height: 60px;
+  width: 150px;
+  font-size: large;
+  transition: transform 0.2s ease-in-out;
+}
+
+.more-article {
+  background-color: #0E1E32;
+  color: #F1F2F3;
+}
+
+.read-more-articles button:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+/* contact css */
+.contact {
+  height: 250px;
+  width: 100%;
+  margin-top: 30px;
+  background-color: #0E1E32;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-family: 'Varela Round', sans-serif;
+}
+
+.contact .title {
+  height: 100%;
+  font-family: 'UnifrakturMaguntia', cursive;
+  color: #F1F2F3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.contact .title img {
+  height: 100px;
+}
+
+.contact .info {
+  color: #F1F2F3;
+  /* line-height: 40px;*/
+  text-align: center;
+  font-size: small;
+  width: 400px;
+}
+
+.contact .social_media img {
+  height: 50px;
+  gap: 20px;
+  padding: 0px 10px;
+}
