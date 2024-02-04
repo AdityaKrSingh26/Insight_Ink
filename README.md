@@ -1,3 +1,7 @@
+
+<img width="949" alt="Screenshot 2024-02-04 235749" src="https://github.com/AdityaKrSingh26/Insight_Ink/assets/128071145/974962f9-0877-42b8-9fac-b15629973a16">
+<img width="948" alt="Screenshot 2024-02-04 235813" src="https://github.com/AdityaKrSingh26/Insight_Ink/assets/128071145/b859fb39-e548-463a-9da4-1e93560174cb">
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
